@@ -14,14 +14,8 @@ import numpy as np
 # print(diabetes.feature_names)
 
 
-# injury+fatlity : PSEV=Outcome 1=0 2=1 3=1
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-numeric-outcome1.csv', dtype="string")
-
 # fatality : PSEV=Outcome 1=0 2=0 3=1
-data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-numeric-outcome2.csv', dtype="string")
-
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-10000-numeric-outcome3-injured.csv', dtype="string")
-data_read_count = len(data_org)
+data_org = pd.read_csv(r'Documents\NCDB_2017.csv', dtype="string")
 
 # features = ['P_SEX', 'C_RCFG', 'C_RSUR', 'V_YEAR', 'C_MNTH', 'C_WDAY', 'C_HOUR', 'C_VEHS', 'C_CONF', 'C_WTHR'];
 MAXCOL = 22
