@@ -10,27 +10,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings("ignore", category=plt.cbook.mplDeprecation)
 plt.rcParams['figure.max_open_warning'] = 0
 
-# input : "D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.csv"
-print("LogisticRegression")
-
-# Load data from the file
-# Load the data from file
-# data = pd.read_csv("scores_Logistic_Regression.csv")
-# data = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017-7-outcome.csv', dtype="string")
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017-7-100-outcome.csv', dtype="string")
-# data = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017-7-500-outcome.csv', dtype="string")
-# data = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017-7-1000-outcome.csv', dtype="string")
-# data = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017-7-10000-outcome.csv', dtype="string")
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017-23-100-outcome.csv', dtype="string")
-
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-numeric-outcome1-fatal.csv', dtype="string")
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-10000-numeric-outcome1-fatal.csv', dtype="string")
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-1000-numeric-outcome1-fatal.csv', dtype="string")
-
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-numeric-outcome1-injured.csv', dtype="string")
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-1000-numeric-outcome1-injured.csv', dtype="string")
-# data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-10000-numeric-outcome1-injured.csv', dtype="string")
-data_org = pd.read_csv(r'D:\LOCAL\AcadAB\WWSEF\NCDB\NCDB_2017.23-10000-numeric-outcome3-injured.csv', dtype="string")
+data_org = pd.read_csv(r'Documents\NCDB_2017.csv', dtype="string")
 
 # print("\n\nOriginal Dataset: ")
 # print(data_org.head())
